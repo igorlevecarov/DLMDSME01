@@ -1,0 +1,1 @@
+Proposal of how model could be used by the business in everyday work, via a graphical user interface (GUI).

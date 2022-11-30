@@ -1,0 +1,5 @@
+﻿name,encoding,fee_success,fee_failed,score
+Moneycard,1,5,2,9
+Goldcard,0,10,5,8.5
+UK_Card,3,3,1,9.5
+Simplecard,2,1,0.5,10
