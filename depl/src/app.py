@@ -5,10 +5,10 @@ import numpy as np
 
 app = Flask(__name__)
 
-service_fees = pd.read_csv('datasets/Service_fees.csv')
+service_fees = pd.read_csv('../datasets/Service_fees.csv')
 service_fees = service_fees.sort_values(by='encoding')
 
-model = pickle.load(open('model/model.pkl', 'rb'))
+model = pickle.load(open('../model/model.pkl', 'rb'))
 cols = ['country','amount','PSP', '3D_secured', 'card', 'weekday', 'hour']
 
 @app.route('/')
